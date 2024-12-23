@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ffffffbe;
+    font-family: "Bungee", serif;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px 80px;
+    font-weight: normal;
+    color: #363535ea;
+    text-align: center;
+    border-color: #bdbbbb;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px 80px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    border-color: #bdbbbb;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*riscar quando for chamado no JS */
+.riscar { 
+    text-decoration: line-through;
+}
+
+ul li {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* local perfeito para o rodapé*/
+footer{ 
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    background-color: black;
+    font-weight: bold;
+}
